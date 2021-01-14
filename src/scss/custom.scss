@@ -1,0 +1,62 @@
+#video-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -2;
+  width: 100%;
+}
+
+#img-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -2;
+  height: 100%;
+}
+
+#img-background img {
+  height: 100%;
+  max-width: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+#start-menu {
+  padding-top: 1rem;
+}
+
+.hero-logo img {
+  max-height: 3.75rem;
+}
+
+.footer {
+  padding: 3rem 1.5rem 2rem;
+}
+
+.has-background-dark {
+  background-color: rgba(49, 49, 49, 0.34) !important;
+}
+
+#base {
+  z-index: 0;
+}
+
+.card {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
